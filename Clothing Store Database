@@ -1,0 +1,22 @@
+CREATE TABLE clothing_store (id INTEGER, name TEXT, price INTEGER);
+INSERT INTO clothing_store VALUES (1,"shirts", 5);
+INSERT INTO clothing_store VALUES (2, "leggings", 10);
+INSERT INTO clothing_store VALUES (3, "hoodies", 20);
+INSERT INTO clothing_store VALUES (4, "jackets", 25);
+INSERT INTO clothing_store VALUES (5, "shoes", 40);
+INSERT INTO clothing_store VALUES (6, "socks", 5);
+INSERT INTO clothing_store VALUES (7, "shorts", 10);
+INSERT INTO clothing_store VALUES (8, "sweats", 25);
+INSERT INTO clothing_store VALUES (9, "sandals", 30);
+INSERT INTO clothing_store VALUES (10, "sunglasses", 15);
+INSERT INTO clothing_store VALUES (11, "scarves", 12);
+INSERT INTO clothing_store VALUES (12, "gloves", 10);
+INSERT INTO clothing_store VALUES (13, "earrings", 15);
+INSERT INTO clothing_store VALUES (14, "necklaces", 20);
+INSERT INTO clothing_store VALUES (15, "bracelets", 10);
+
+SELECT * FROM clothing_store;
+
+SELECT * FROM clothing_store
+WHERE price
+ORDER BY price asc;
