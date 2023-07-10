@@ -1,7 +1,3 @@
-echo "# SQL-Portfolio" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/lisabellaalo/SQL-Portfolio.git
-git push -u origin main# SQL-Portfolio
+# Lisabella Aloese's SQL Portfolio
+
+## Welcome to my SQL Potfolio! This code repository contains examples of SQL I've written. Feel free to take a ok and reach out via email if you have any questions; lisabellaaloese@gmail.com
